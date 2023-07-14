@@ -1,0 +1,157 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body,
+html {
+ background: #141820;
+ background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ font-family: monospace;
+ align-items: center;
+}
+
+.terminal-container {
+ height: 80%;
+ width: 80%;
+ background: #181818;
+ border: 2px solid #696969;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border-radius: 10px;
+ overflow-x: hidden;
+}
+
+.terminal-tabbar {
+ background-color: #1f1f27;
+ border-bottom: 2px solid #696969;
+ height: 7%;
+ width: 100%;
+ display: flex;
+ justify-content: start;
+ align-items: center;
+ position: sticky;
+ top: 0;
+}
+
+.btn {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 10px;
+}
+
+.btn .circle {
+ height: 15px;
+ width: 15px;
+ margin: 4px;
+ background: #cf3636;
+ border-radius: 50%;
+}
+
+.btn .circle:nth-child(1) {
+ background-color: #43cf36;
+}
+
+.btn .circle:nth-child(2) {
+ background-color: #d4b039;
+}
+
+.terminal-input {
+ background-color: #181818;
+ height: 100%;
+ border: none;
+ outline: none;
+ color: #49e41a;
+ width: auto;
+ margin: 20px;
+ word-wrap: break-word;
+}
+
+.terminal-input input {
+ background-color: transparent;
+ border: none;
+ font-family: monospace;
+ color: #3CCF4E;
+ letter-spacing: 2px;
+ font-size: 1.4em;
+ outline: none;
+ width: 70%;
+}
+
+.input span,
+.output {
+ width: 100%;
+ color: #3CCF4E;
+ letter-spacing: 2px;
+ font-size: 1.4em;
+ font-family: monospace;
+ padding: 20px;
+
+}
+
+span2 {
+ color: #4aaf99;
+}
+
+.output {
+ margin-bottom: 40px;
+ color: #91C483;
+ padding: 0 40px;
+}
+
+.output p,
+ul,
+li,
+h3 {
+ margin: 10px 0;
+}
+
+.output p.command {
+ color: #43cf36;
+ /* Green color for command text */
+}
+
+
+.output p.error {
+ color: #EB5353;
+ /* Red color for error messages */
+}
+
+.output a {
+ color: #185ADB;
+}
+
+hr {
+ border-top: 1px solid #37ff00;
+}
+
+::-webkit-scrollbar {
+ display: none;
+}
+
+button{
+ border: 2px solid #3CCF4E;
+ color: #3CCF4E;
+ height: 50px;
+ width: 200px;
+ background-color: #1f1f27;
+ font-size: 20px;
+ cursor: pointer;
+ margin: 40px;
+ border-radius: 5px;
+}
+
+span1{
+ text-align: center;
+ font-size: 16px;
+ color: #d4b039;
+ margin: 0 10px;
+}
