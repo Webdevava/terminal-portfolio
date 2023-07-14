@@ -155,3 +155,20 @@ span1{
  color: #d4b039;
  margin: 0 10px;
 }
+
+
+@media (max-width:50em){
+
+.terminal-container {
+ height: 100vh;
+ width: 100%;
+}
+
+.input span,span1,
+.output {
+ letter-spacing: 2px;
+ font-size: 1.2em;
+
+}
+
+}
