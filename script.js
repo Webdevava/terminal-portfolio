@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     terminalOutput.innerHTML += "<p>You can use the following commands:</p>";
 
     terminalOutput.innerHTML += "<ul>";
-    terminalOutput.innerHTML += "<li><strong>Home</strong> - Displays an overview of the application and commands.</li>";
+    terminalOutput.innerHTML += "<li><strong>Help</strong> - Displays an overview of the application and commands.</li>";
     terminalOutput.innerHTML += "<li><strong>About</strong> - Displays information about the application.</li>";
     terminalOutput.innerHTML += "<li><strong>Contact</strong> - Provides contact details to get in touch.</li>";
     terminalOutput.innerHTML += "<li><strong>CV</strong> - Displays your CV.</li>";
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     terminalOutput.innerHTML += "<p>Feel free to try out these commands by typing them in the input box below.</p>";
     break;
    case "About":
-    terminalOutput.innerHTML += "<p>About page information:</p>";
+    terminalOutput.innerHTML += "<p>About:</p>";
 
     terminalOutput.innerHTML += "<p>This application was developed by Ankur Auti, a MERN Developer based in Maharashtra, India.</p>";
 
